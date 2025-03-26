@@ -13,10 +13,8 @@ import { HashRouter , Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <HashRouter>
-      <Router>
         <div className="container">
           <Navbar />
-          
           <Routes>
             <Route path="/products" element={<Products />} />
             <Route path="/" element={
@@ -44,7 +42,6 @@ function App() {
             <Footer />
           </section>
         </div>
-      </Router>
     </HashRouter>
   );
 }
