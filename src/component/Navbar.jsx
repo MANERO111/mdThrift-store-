@@ -27,10 +27,10 @@ function Navbar() {
             <div className={' nav-links '+ linksDisplay }>
                 <a className='nv-b btn fs-5' href='/'>HOME</a>
                 <a className='nv-b btn fs-5' href='/products'>Products</a>
-                <a className='nv-b btn fs-5' href='/#items'>Featured Items</a>
-                <a className='nv-b btn fs-5' href='/#fashion'>Fashion</a>
-                <a className='nv-b btn fs-5' href='/#diffrent'>Collection</a>
-                <a className='nv-b btn fs-5' href='/#join'>Join Us</a>
+                <a className='nv-b btn fs-5' href='#items'>Featured Items</a>
+                <a className='nv-b btn fs-5' href='#fashion'>Fashion</a>
+                <a className='nv-b btn fs-5' href='#diffrent'>Collection</a>
+                <a className='nv-b btn fs-5' href='#join'>Join Us</a>
                 <a className=' h-btn login btn '>Login</a>
             </div>
         </nav>
