@@ -31,7 +31,6 @@ function Navbar() {
                 <a className='nv-b btn fs-5' href='/#fashion'>Fashion</a>
                 <a className='nv-b btn fs-5' href='/#diffrent'>Collection</a>
                 <a className='nv-b btn fs-5' href='/#join'>Join Us</a>
-                <a className=' h-btn login btn '>Login</a>
             </div>
         </nav>
     </div>
