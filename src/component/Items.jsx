@@ -2,7 +2,7 @@ import React from 'react'
 import './Items.css'
 export default function Items() {
   return (
-    <div className="i-con container">
+    <div className="i-con container" id='items'>
         <h1 className='i-title fw-bold fs-700 text-center mb-5 '>
         Discover The latest Trends and Styles at our Clothing Store.
         </h1>

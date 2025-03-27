@@ -8,11 +8,11 @@ import Diffrent from './component/diffrentSection.jsx';
 import Join from './component/join.jsx';
 import Footer from './component/footer.jsx';
 import Products from './component/products.jsx';
-import { HashRouter , Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
         <div className="container">
           <Navbar />
           <Routes>
@@ -42,8 +42,9 @@ function App() {
             <Footer />
           </section>
         </div>
-    </HashRouter>
+    </Router>
   );
 }
-
 export default App;
+
+
